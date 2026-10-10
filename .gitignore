@@ -1,0 +1,20 @@
+# Repositorio publico reservado a metadados de distribuicao.
+# Fontes, configuracoes, backups e instaladores ficam fora dos commits.
+/*
+!/.gitignore
+!/README.md
+!/SECURITY.md
+!/LICENSE
+!/.github/
+
+# Credenciais e dados locais tambem ficam excluidos de .github.
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.log
+*.sqlite
+*.sqlite3
+*.db
